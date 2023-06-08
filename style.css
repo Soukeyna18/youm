@@ -102,5 +102,19 @@ input[type="submit"] {
 .espace {
   padding: 7px;
 }
+.kine{
+
+    background: url(image/REVOLT-min.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+
+
+
 
 
