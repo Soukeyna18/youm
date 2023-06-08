@@ -27,7 +27,15 @@ display: flex;
 justify-content:auto;
 
 }
+.noire{
+background-color: black;
+width: 1000vh;
+height: 80vh;
+margin-bottom: auto;
+justify-content: auto;
+align-items: auto;
 
+}
 h1{
   color: azure;
   font-size: 30px;
@@ -93,22 +101,6 @@ input[type="submit"] {
 }
 .espace {
   padding: 7px;
-  
 }
-.souk{
-width: 100px;
-height: 500px;
 
-}
-.footer-container{
-text-align: center;
-background-color: black;
-width: 212vh;
-height: 110vh;
-margin-bottom: auto;
-justify-content: auto;
-align-items: auto;
-margin-top: -40px;
-font-family: 'Work Sans', sans-serif;
 
-}
