@@ -103,7 +103,13 @@ input[type="submit"] {
   padding: 7px;
 }
 
-
+html { 
+  background: url(image/REVOLT-min.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
     
   
 
