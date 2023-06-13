@@ -24,6 +24,18 @@ font-size: 600;
     background-color: #333;
     color: #fff;
   }
+ 
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  
+  
+  
+      
+    
 
 .container{
 display: flex;
@@ -37,7 +49,7 @@ height: 100vh;
 margin-bottom: auto;
 justify-content: auto;
 align-items: auto;
-margin-top: -5px;
+margin-top: 500px;
 
 }
 h1{
@@ -109,6 +121,19 @@ input[type="submit"] {
 body{
   margin:0%;
 }
+
+
+
+.background-image {
+  width: 100%;
+  height: 100vh; /* Ajustez cette valeur pour définir la hauteur de l'image d'arrière-plan */
+  background-image: url('image/CAP2-min.png');
+  background-size: cover;
+  background-position: center;
+  margin-top: -40%;
+}
+
+
 .soukeye{
 margin-left:5%;
 margin-bottom: -15px;
@@ -116,9 +141,6 @@ margin-bottom: -15px;
 }
 
 
-
-    
-  
 
 
 
