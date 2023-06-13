@@ -23,19 +23,17 @@ font-size: 600;
   nav li a:hover {
     background-color: #333;
     color: #fff;
-  }
+  }  
+  
+.background-image {
+  width: 100%;
+  height: 100vh; /* Ajustez cette valeur pour définir la hauteur de l'image d'arrière-plan */
+  background-image: url('image/CAP2-min.png');
+  background-size: cover;
+  background-position: center;
+  margin-top: -40%;
+}
  
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  
- 
-  
-  
-  
-      
-    
 
 .container{
 display: flex;
@@ -123,15 +121,6 @@ body{
 }
 
 
-
-.background-image {
-  width: 100%;
-  height: 100vh; /* Ajustez cette valeur pour définir la hauteur de l'image d'arrière-plan */
-  background-image: url('image/CAP2-min.png');
-  background-size: cover;
-  background-position: center;
-  margin-top: -40%;
-}
 
 
 .soukeye{
