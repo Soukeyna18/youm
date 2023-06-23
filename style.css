@@ -29,17 +29,19 @@ font-size: 600;
   
 .background-image {
   width: 100%;
-  height: 100vh; 
+  height: 60vh; 
   background-image: url('image/CAP2-min.png');
   background-size: cover;
   background-position: center;
   margin-top: -35%;
+
 }
  
 
 .container{
 display: flex;
 justify-content:auto;
+
 
 }
 .noire{
@@ -49,13 +51,13 @@ height: 100vh;
 margin-bottom: auto;
 justify-content: auto;
 align-items: auto;
-margin-top: 500px;
+margin-top: 600px;
 
 }
 h1{
   color: azure;
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 100px;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 
