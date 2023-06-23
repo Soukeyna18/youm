@@ -1,3 +1,7 @@
+body{
+  margin:0%;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -113,9 +117,6 @@ input[type="submit"] {
 }
 .espace {
   padding: 7px;
-}
-body{
-  margin:0%;
 }
 
 
