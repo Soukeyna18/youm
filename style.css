@@ -1,130 +1,153 @@
-body{
-  margin:0%;
-}
-
-.container {
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-  
-  }
-  nav li {
-    display: inline-block;
-    margin-right: 10px;
+    justify-content: space-between;
+   
+    padding: 10px;
   }
   
-  nav li a {
-    display: block;
-    padding: 10px 20px;
+  .logo img {
+    width: 50px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+    font-size: medium;
+  }
+  
+  nav ul li {
+    margin-left: 30px;
+  }
+  
+  nav ul li a {
     text-decoration: none;
     color: #333;
     font-family: 'Work Sans', sans-serif;
-font-size: 600;
+ 
+    
   }
   
-  nav li a:hover {
-    background-color: #333;
-    color: #fff;
-  }  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    margin-left: 600px;
+  }
+
+  .background-image {
+    background-image: url('image/images/CAP2-min.png');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+  }
   
-.background-image {
-  width: 100%;
-  height: 60vh; 
-  background-image: url('image/CAP2-min.png');
-  background-size: cover;
-  background-position: center;
-  margin-top: -35%;
-
-}
+  .black-background {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .black-background .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
  
-
-.container{
-display: flex;
-justify-content:auto;
-
-
-}
-.noire{
-background-color: black;
-width: 1010vh;
-height: 100vh;
-margin-bottom: auto;
-justify-content: auto;
-align-items: auto;
-margin-top: 600px;
-
-}
-h1{
-  color: azure;
-  font-size: 30px;
-  margin-top: 100px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-
-}
-p{
+  }
+ 
+  .bac{
+margin-right: -1100px;
 
 
-color: #fff;
-font-size: 20px;
-margin-left: 40px;
-}
-.form-row {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 25%px;
-}
+  }
 
-.form-col {
-  flex-basis: 50%;
-  margin-bottom: 25px;
+  .form-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 40%px;
+   
+  }
+  
+  .form-col {
+    flex-basis: 50%;
+    margin-bottom: 25px;
+  
+  }
+  
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      align-content: center;
+      height: 90%;
+      width: 50%;
+    }
+    
+    input[type="text"],
+    input[type="email"]
+    {
+      width: 10%;
+      height: 30px;
+      padding: 5px;
+      margin-bottom: 5px;
+      align-content:center;
+      height: 8vh;
+      width: 150%;
+      margin-top: -40px;
+    }
+    
+    input[type="submit"] {
+      margin-top: 10px;
+      padding: 20px 40px;
+      background-color: #fff;
+      font-family: 'Work Sans', sans-serif;
+      font-size: 600;
+      margin-top: 20px;
+      align-content: center;
+      margin-right: -90px;
 
-}
+      
+    
+    }
+   
+    .espace {
+      padding: 60px;
+    }
+    .espace {
+      padding: 60px;
+    }
+    .bic{
+margin-top: -50px
 
-label {
-  display: block;
-  margin-bottom: 5px;
-  align-content: center;
-  height: 90%;
-  width: 40%;
-}
+    }
+    .email-col {
+        flex-basis: 30%;
+        margin-bottom: 10px;
+        margin-left: -5px;
+      }
+      .pa{
+margin-right: -80px;
+margin-bottom: -10px;
+margin-top: 90px;
+font-size: medium;
+font-family:  "Gill Sans Extrabold", sans-serif; 
+font-weight: 520;
+font-style: normal;
+letter-spacing: 0em;
+text-transform: none;
 
-input[type="text"],
-input[type="email"] {
-  width: 50%;
-  height: 40px;
-  padding: 5px;
-  margin-bottom: 5px;
-  align-content:center;
-  height: 8vh;
-  width: 40%;
-  margin-top: -40px;
-}
-
-input[type="submit"] {
-  margin-top: 10px;
-  padding: 20px 40px;
-  background-color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 20px;
-
-}
-.style{
-  margin: 10px;
-}
-.espace {
-  padding: 7px;
-}
-.espace {
-  padding: 7px;
-}
-
-
-
-
-
-
-
-
+ 
+ }
+ 
